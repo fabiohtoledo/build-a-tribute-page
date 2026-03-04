@@ -1,0 +1,208 @@
+/* font import: barlow */
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* global */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --bg: #f4f6f8;
+  --bg-secondary: #ffffff;
+  --card-bg: #e3e9f0;
+  --text: #1f1f1f;
+  --text-secondary: #5b5b5b;
+  --accent: #3a6ea5;
+  --accent-hover: #2d5984;
+}
+
+
+
+
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  font-family: 'barlow', sans-serif;
+  align-items: center;
+  text-align: center;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+a:hover {
+  color: var(--accent-hover);
+}
+
+main{
+  /* width: 50vw; */
+  margin: 0 auto;
+}
+section{
+  margin: 0 auto 40px auto;
+}
+header{
+  
+  margin: 0 auto 40px auto;
+}
+
+/* title */
+header h1{
+  margin: 30px 0;
+}
+
+
+/* figure */
+figure{
+  margin: 0 auto 40px auto;
+  background-color: var(--bg-secondary);
+  padding: 10px;
+}
+figcaption{
+  margin: 10px 0;
+}
+img{
+  display: block;
+  margin: 0 auto;
+}
+#image{
+  max-width:100%;
+  max-height:500px;
+}
+
+
+/* tribute info */
+#tribute-info h3{
+  margin: 50px 0;
+}
+#tribute-info ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.6;
+}
+#tribute-info li{
+  margin: 1rem 0;
+}
+
+
+/* Legacy */
+#legacy{
+  width: 40vw;
+}
+@media (max-width:925px) {
+  #legacy{
+    width: 80vw;
+  }
+}
+#legacy h2{
+  margin: 1rem 0;
+}
+#legacy > p{
+  margin: 1rem 0;
+}
+blockquote{
+  margin: 1rem 0;
+  font-style: italic;
+  text-align: left;
+  max-width: 550px;
+  margin: 0 auto 30px auto;
+
+}
+#legacy blockquote p{
+  margin: 0.3rem 0;
+
+}
+cite{
+  color: var(--text-secondary);
+  margin: 0.3rem 0;
+}
+
+/* footer */
+footer{
+  width: 100%;
+  background-color: var(--bg-secondary);
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+footer a{
+  font-weight: 500;
+}
+
+/*  theme */
+#theme{
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+  background-color: var(--accent);
+  padding: 10px;
+  color: var(--bg-secondary);
+  border-radius: 5px;
+}
+#theme p{
+  margin: 0.2rem auto;
+}
+option{
+  text-align: center;
+}
+
+body.light{
+  --bg: #f4f6f8;
+  --bg-secondary: #ffffff;
+  --card-bg: #e3e9f0;
+  --text: #1f1f1f;
+  --text-secondary: #5b5b5b;
+  --accent: #3a6ea5;
+  --accent-hover: #2d5984;
+}
+body.dark {
+  --bg: #0e0e10;
+  --bg-secondary: #18181b;
+  --card-bg: #1f1f23;
+  --text: #f5f5f5;
+  --text-secondary: #a1a1aa;
+  --accent: #4f8cff;
+  --accent-hover: #1f6bff;
+}
+body.vintage {
+  --bg: #f8f3ec;
+  --bg-secondary: #fffaf3;
+  --card-bg: #f0e3d0;
+  --text: #3b2f2f;
+  --text-secondary: #6b5e4e;
+  --accent: #b6722d;
+  --accent-hover: #8f541a;
+}
+select {
+  padding: 5px 5px;
+  border: 1px solid var(--text-secondary);
+  border-radius: 6px;
+  background-color: var(--bg-secondary);
+  color: var(--text);
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s, border-color 0.2s;
+}
+
+select:hover,
+select:focus {
+  border-color: var(--accent);
+  background-color: var(--card-bg);
+  outline: none;
+}
+
+option {
+  background-color: var(--bg-secondary);
+  color: var(--text);
+}
+option:hover, option:focus{
+  background-color: var(--bg-secundary);
+}

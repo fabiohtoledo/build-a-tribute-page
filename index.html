@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Chester Bennington - Tribute Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+  <body>
+    <main id="main">
+      <header>
+        <h1 id="title">Chester Bennington</h1>
+        <p id="title-cap">A legendary vocalist who touched generations with his powerful and emotional voice.</p>
+      </header>
+      <div id="theme">
+        <p>Theme</p>
+        <select>
+          <option value="light">Light</option>
+          <option value="dark">Dark</option>
+          <option value="vintage">Vintage</option>
+        </select>
+      </div>
+
+      <figure id="img-div">
+        <img
+          id="image"
+          src="https://capricho.abril.com.br/wp-content/uploads/2017/07/chester-bennington-linkin-park-morte.jpg?quality=85&strip=info"
+          alt="Chester Bennington performing live with Linkin Park"
+        />
+        <figcaption id="img-caption">
+          Chester Bennington performing live with Linkin Park.
+        </figcaption>
+      </figure>
+
+      <section id="tribute-info">
+        <h3 id="headline">Here's a time line of Chester's life:</h3>
+        <ul>
+          <li><strong>1976</strong> – Born in Phoenix, Arizona, USA.</li>
+          <li><strong>1993</strong> – Begins his musical career with the band Grey Daze.</li>
+          <li><strong>1999</strong> – Joins Linkin Park after a successful audition.</li>
+          <li><strong>2000</strong> – Releases <em>Hybrid Theory</em>, which becomes a worldwide success.</li>
+          <li><strong>2003</strong> – Releases <em>Meteora</em>, solidifying the band’s global fame.</li>
+          <li><strong>2005</strong> – Starts the side project <em>Dead by Sunrise</em>.</li>
+          <li><strong>2007</strong> – Linkin Park releases <em>Minutes to Midnight</em>, showing a more mature sound.</li>
+          <li><strong>2013</strong> – Becomes the lead singer of <em>Stone Temple Pilots</em> for a period.</li>
+          <li><strong>2017</strong> – Releases <em>One More Light</em>, his final album with Linkin Park.</li>
+          <li><strong>July 20, 2017</strong> – Chester tragically passes away at age 41.</li>
+        </ul>
+
+        <blockquote>
+          <p>"You can’t be afraid of people willing to hurt you, ’cause if you fear life, then you will never live."</p>
+          <cite>— Chester Bennington</cite>
+        </blockquote>
+      </section>
+
+      <section id="legacy">
+        <h2>Legacy and Mental Health Awareness</h2>
+        <p>
+          Chester often spoke openly about his struggles with depression and addiction,
+          inspiring millions to seek help and to talk about mental health without fear or shame.
+        </p>
+
+        <blockquote>
+          <p>"If we don’t learn from our pain, we are doomed to repeat it."</p>
+          <cite>— Chester Bennington</cite>
+        </blockquote>
+
+        <blockquote>
+          <p>"Depression is a real thing. But so is hope, and so is recovery."</p>
+          <cite>— 320 Changes Direction campaign, founded by Talinda Bennington (2018)</cite>
+        </blockquote>
+
+        <blockquote>
+          <p>"The hardest part of ending is starting again."</p>
+          <cite>— From the song <em>Waiting for the End</em>, Linkin Park (2010)</cite>
+        </blockquote>
+      </section>
+
+      <footer>
+        <h3>Learn more:</h3>
+        <p>
+          <a
+            target="_blank"
+            id="tribute-link"
+            href="https://en.wikipedia.org/wiki/Chester_Bennington"
+          >
+            Chester Bennington's Wikipedia Page
+          </a>
+        </p>
+        <script>
+          document.getElementById("theme").addEventListener("change", (e) => {
+            document.body.className = e.target.value;
+          });
+        </script>
+      </footer>
+    </main>
+
+  </body>
+</html>
