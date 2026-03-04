@@ -1,21 +1,43 @@
-# build-a-tribute-page - personalizado
+# 2. Build a Tribute Page - Personalized Version
+![freeCodeCamp](https://img.shields.io/badge/freeCodeCamp-Responsive%20Web%20Design-brightgreen)
+
 
 **Repository**: [github.com/fabiohtoledo/build-a-tribute-page](https://github.com/fabiohtoledo/build-a-tribute-page)  
 **Live Demo**: [https://fabiohtoledo.github.io/build-a-tribute-page](https://fabiohtoledo.github.io/build-a-tribute-page)
 
 ---
 
-## 📑 Índice
-- [🇺🇸 English](#-project-title-english)
-- [🇧🇷 Português](#-título-do-projeto-português)
+## 📑 Table of Contents
+
+- [🇺🇸 English](#-build-a-tribute-page-english)
+  - [Screenshot](#screenshot)
+  - [📋 About the Project](#-about-the-project)
+  - [📝 What the freeCodeCamp Project Required](#-what-the-freecodecamp-project-required)
+  - [✨ Additional Features (Added Later)](#-additional-features-added-later)
+  - [🚀 Features](#-features)
+  - [🛠️ Technologies & Concepts Used](#️-technologies--concepts-used)
+  - [🧠 What I Learned](#-what-i-learned)
+
+- [🇧🇷 Português](#-construa-uma-página-de-tributo-português)
+  - [📋 Sobre o Projeto](#-sobre-o-projeto)
+  - [📝 O Que o Projeto do freeCodeCamp Pedia](#-o-que-o-projeto-do-freecodecamp-pedia)
+  - [✨ Funcionalidades Adicionais (Adicionadas Depois)](#-funcionalidades-adicionais-adicionadas-depois)
+  - [🚀 Funcionalidades](#-funcionalidades)
+  - [🛠️ Tecnologias & Conceitos Utilizados](#️-tecnologias--conceitos-utilizados)
+  - [🧠 Aprendizados](#-aprendizados)
+
+- [✍️ Author / Autor](#️-author--autor)
 
 ---
 
-# 🇺🇸 Project Title (English)
+# 🇺🇸 Build a Tribute Page (English)
 
 **Chester Bennington Tribute Page** – A responsive tribute page honoring the life and legacy of Chester Bennington, built for the freeCodeCamp certification project.
 
 [**Live Demo / Project Link**](https://fabiohtoledo.github.io/build-a-tribute-page)
+### Screenshot
+
+![](./screenshot.png)
 
 ## 📋 About the Project
 This project is a tribute page dedicated to Chester Bennington, the iconic vocalist of Linkin Park. It was developed as part of the freeCodeCamp "Build a Tribute Page" certification project. The page presents a timeline of his life, significant career milestones, and powerful quotes that reflect his struggles and legacy.
@@ -66,7 +88,7 @@ After completing the base requirements, I revisited the project and added:
 
 ---
 
-# 🇧🇷 Título do Projeto (Português)
+# 🇧🇷 Construa uma página de Tributo (Português)
 
 **Página de Tributo ao Chester Bennington** – Uma página de tributo responsiva em homenagem à vida e legado de Chester Bennington, desenvolvida para o projeto de certificação do freeCodeCamp.
 
@@ -132,3 +154,4 @@ Após concluir os requisitos básicos, revisitei o projeto e adicionei:
 
 *Project developed as part of the freeCodeCamp Responsive Web Design Certification.*  
 *Projeto desenvolvido como parte da certificação "Responsive Web Design" do freeCodeCamp.*
+
